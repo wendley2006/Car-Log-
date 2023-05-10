@@ -1,0 +1,86 @@
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  clear: both;
+  overflow: auto;
+  background-color: black;
+}
+
+nav {
+  float: right;
+}
+
+.logo img {
+  float: left;
+  border-radius: 40px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-family: raleway;
+}
+
+ul li:hover {
+  color: brown;
+  cursor: pointer;
+
+}
+li{
+  color:white;
+}
+
+.hero button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button{
+margin: 80px;
+}
+
+.footer{
+  background-color:black;
+}
+
+.footer p{
+  color:white;
+  text-align: center;
+  font-style: italic;
+}
+.footer ul li{
+  align-items: center;
+  margin: 40px;
+}
+
+input {
+  width: 100%;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.footer button{
+  margin-top: 10px;
+  margin-left: 10px;
+  padding:10px;
+  border:none;
+  background-color:#3F5888;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:50%;
+}
